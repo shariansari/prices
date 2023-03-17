@@ -1,0 +1,20 @@
+body {
+    background-color: #DFF0D8;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+#feature-box {
+    column-count: 2 !important;
+    column-rule: 1px solid limegreen !important;
+    font-size: 17px;
+    margin-left: 12px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    <title>Document</title>
+<style>
+    body{
+        background-color: #DFF0D8;
+
+    }
+    .Plans{
+        margin: 20px auto;
+    }
+    .planscen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav-link, .nav-tabs .nav-link.active {
+     background-color:inherit;
+}
+.nav-tabs .nav-link:hover {
+    background-color: inherit;
+    /* border-color: transparent; */
+}
+#feature-box {
+    column-count: 2 !important;
+    column-rule: 1px solid limegreen !important;
+    font-size: 17px;
+    margin-left: 12px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Box1{
+    font-weight: bold;
+    font-size: 19px;
+    color: rgb(51, 122, 183);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 0px 80px;
+    border-right: 0px;
+}
+.DoAuto{
+display: grid;
+grid-template-columns: auto auto auto auto;
+margin-top: 100px;
+align-items: center;
+justify-content: center;
+}
+.Thetab{
+    font-size: 20px;
+}
+.ActiveColor{
+    background:rgb(51, 122, 183);
+            color:white;
+            border-left:1px solid black;
+}
+.eman{
+    font-size: 9px;
+    color: grey;
+}
+.SuperDiamondplus,.Diamondplus,.Diamond,.Silver{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:1200px) {
+.Box1{
+    padding: 0px 48px;
+
+
+}
+.eman{
+    font-size: 7px;
+    color: grey;
+}
+    
+}
+@media screen and (max-width:1000px) {
+.Box1{
+    padding: 0px 30px;
+
+
+}
+.Thetab{
+    font-size: 15px;
+}
+    
+}
+@media screen and (max-width:768px) {
+.DoAuto{
+    grid-template-columns: auto;
+    margin-top: 35px;
+  
+
+
+}
+.ox{
+    border: 1px solid black !important;
+}
+.Thetab{
+    font-size: 12px;
+  
+}
+.Box1{
+        border-bottom: 0px;
+        border-left: 1px solid black!important;
+        border-right: 1px solid black !important;
+        width: 90vw;
+    }
+    
+}
+
+@media only screen and (max-width: 550px){
+#feature-box {
+    font-size: 10px !important;
+}
+}
+@media screen and (max-width:535px) {
+    .Thetab{
+    font-size: 10px;
+  
+} 
+v-link, .nav-tabs .nav-link.active {
+    padding: 8px;
+}
+.nav-tabs .nav-link {
+    padding: 8px;
+}
+}
+@media screen and (max-width:355px) {
+    .Thetab{
+    font-size: 8px;
+  
+} 
+v-link, .nav-tabs .nav-link.active {
+    padding: 5px;
+}
+.nav-tabs .nav-link {
+    padding: 5px;
+}
+#feature-box {
+    font-size: 7px !important;
+}
+}
+
+</style>
+</head>
+<body>
+    <div class="container Plans">
+        <div class="planscen">
+    <ul class="nav nav-tabs mb-3" id="myTab0" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#home0"
+            type="button"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+          >
+           <strong class="Thetab">IndiVadual Plan</strong> 
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#profile0"
+            type="button"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+          >
+          <strong class="Thetab"> Monthly Subscription</strong> 
+         
+        
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#contact0"
+            type="button"
+            role="tab"
+            aria-controls="contact"
+            aria-selected="false"
+          >
+          <strong class="Thetab">  Business Plan</strong> 
+         
+          </button>
+        </li>
+      </ul>
+    </div>
+      <div class="tab-content" id="myTabContent0">
+        <div
+          class="tab-pane fade show active"
+          id="home0"
+          role="tabpanel"
+          aria-labelledby="home-tab0"
+        >
+        <hr style="color:#297bca">
+
+        <ul id="feature-box">
+												
+            <li>
+            <img class="imag" src="	https://www.gharpeshiksha.com/images/students.png" width="45" height="45">
+           <strong> Instant Contact Views</strong>
+            </li><br>
+            <li>
+            <img class="imag" src="	https://www.gharpeshiksha.com/images/validity1.jpg" width="45" height="45">
+           <strong> Validity 180 days</strong>
+            </li><br>
+            <li>
+            <img class="imag" src="	https://www.gharpeshiksha.com/images/instant1.png" width="45" height="45">
+            <strong>High Response </strong>
+            </li><br>
+            <li>
+            <img class="imag" src="https://www.gharpeshiksha.com/images/sms.png" width="45" height="45">
+           <strong> SMS/Email Alerts</strong>
+            </li>
+            <br>												
+            <li>
+                <img class="imag" src="	https://www.gharpeshiksha.com/images/parents1.jpg" id="lock1" width="45" height="45">
+                        <b id="contact" style="font-weight: unset; opacity: 1;"><strong>Parents Can Contact</strong></b>
+            </li><br>
+            <li>
+             <img class="imag" src="https://www.gharpeshiksha.com/images/suggestion1.png" id="lock2" width="45" height="45">
+            <b id="tag" style="font-weight: unset; opacity: 1;"><strong>Suggested Tutor Tag</strong></b>
+            </li><br>
+            <li>
+            <img class="imag" src="https://www.gharpeshiksha.com/images/client.png" id="lock3" width="45" height="45">
+            <b id="parents" style="font-weight: unset; opacity: 1;"><strong>Unlimited Parent Views</strong></b>
+            </li><br>
+            <li>
+            <img class="imag" src="https://www.gharpeshiksha.com/images/notification1.png" id="lock" width="45" height="45">
+            <b id="notification" style="font-weight: unset; opacity: 1;"><strong>15min early notification</strong></b>
+            </li>
+            <br>
+            <li><img class="imag" src="	https://www.gharpeshiksha.com/images/win.png" id="lock6" width="45" height="45"> <b id="win" style="font-weight: unset; opacity: 1;"><strong>Zero Competition Leads</strong></b></li>
+            </ul> 
+            <div class="DoAuto">
+                <div class="Box1 Bronze"style="    border-left: 0px;
+                "><div>Bronze</div> <div>20 Contacts</div><div>&#x20B9 5000</div></div>
+                <div class="Box1 Gold"><div>Gold</div> <div>30 Contacts</div><div>&#x20B9 8000</div></div>
+                <div class="Box1 platinum"><div>Platinum</div> <div>40 Contacts</div><div>&#x20B9 10000</div></div>
+                <div class="Box1  platinumPlus ActiveColor" style="border-bottom: 1px solid black;"><div>Platinum Plus</div> <div>20 Contacts</div><div>&#x20B9 8000</div></div>
+               
+            </div>
+            <br>
+            <center>
+                <button type="button" class="btn btn-primary" style="margin-bottom: 8px; height: 46px; width: 100%; " data-backdrop="static" onclick="paymentcheckout()">UPGRADE NOW</button>
+                </center>
+               </div>
+        <div class="tab-pane fade" id="profile0" role="tabpanel" aria-labelledby="profile-tab0">
+            <hr style="color:#297bca">
+            <ul id="feature-box">
+												
+                <li>
+                <img class="imag" src="https://www.gharpeshiksha.com/images/client.png" width="45" height="45">
+              <strong>  15 + Students Leads Guaranteed</strong>
+                </li><br>
+               
+                <li>
+                <img class="imag" src="	https://www.gharpeshiksha.com/images/instant1.png" width="45" height="45">
+              <strong>  High Response </strong>
+                </li><br>
+              												
+             
+                <li>
+                 <img class="imag" src="/images/suscnacel.png" width="45" height="45">
+                <b  style="font-weight: unset; opacity: 1;"><strong>Cancel /Pause Subscribtion any time</strong></b>
+                </li><br>
+                <li>
+                <img class="imag" src="https://www.gharpeshiksha.com/images/sms.png" width="45" height="45">
+                <b style="font-weight: unset; opacity: 1;"><strong>Direct Leads On SMS & Email</strong></b>
+                </li><br>
+                
+            
+                </ul> 
+                <div class="DoAuto">
+                   
+                   
+                    <div class="Box1 ox" style="border-left:0px"><div></div>&#x20B9 1500 /month <div>15 + Leads /month</div><div class="eman">* Emandate/Auto recurring payment</div></div>
+                 
+                   
+                </div>
+                <br>
+                <center>
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 8px; height: 46px; width: 100%; " data-backdrop="static" onclick="paymentcheckout()">UPGRADE NOW</button>
+                    </center>
+          <!-- Tab 2 content -->
+        </div>
+        <div class="tab-pane fade" id="contact0" role="tabpanel" aria-labelledby="contact-tab0">
+            <hr style="color:#297bca">
+            <ul id="feature-box">
+												
+                <li>
+                <img class="imag" src="https://www.gharpeshiksha.com/images/client.png" width="45" height="45">
+                <strong><span class="leads"></span></strong>
+                </li><br>
+             
+                <li>
+                <img class="imag" src="	https://www.gharpeshiksha.com/images/instant1.png" width="45" height="45">
+               <strong> High Response </strong>
+                </li><br>
+              												
+               
+                <li>
+                 <img class="imag" src="https://www.gharpeshiksha.com/images/sms.png" width="45" height="45">
+                <b  style="font-weight: unset; opacity: 1;"><strong> Direct leads to SMS / Email</strong></b>
+                </li><br>
+                <li>
+                <img class="imag" src="/images/Unlimited.png"  width="45" height="45">
+                <b style="font-weight: unset; opacity: 1;"><strong>Unlimited Validity</strong></b>
+                </li><br>
+               
+                </ul> 
+                <!-- /// -->
+                <div class="DoAuto">
+                    <div class="Box1 Silver ActiveColor"style="    border-left: 0px;
+                    "><div>Silver</div><div>&#x20B9 40000</div></div>
+                    <div class="Box1 Diamond "><div> Diamond</div><div>&#x20B9 75000 </div></div>
+                    <div class="Box1 Diamondplus"><div>Diamond +</div><div>&#x20B9 1.2Lacks</div></div>
+                    <div class="Box1 SuperDiamondplus" style="border-bottom: 1px solid black;"><div>Super Diamond +</div><div>&#x20B9 2Lacks</div></div>
+                   
+                </div>
+                <br>
+                <center>
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 8px; height: 46px; width: 100%; " data-backdrop="static" onclick="paymentcheckout()">UPGRADE NOW</button>
+                    </center>
+          <!-- Tab 3 content -->
+        </div>
+      </div> 
+    </div>
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>
+        $(document).ready(function(){
+    $(".Bronze").click(function(){
+        $("body").css("background","#a52a2a47")
+
+    	$(".platinum,.Gold,.platinumPlus").removeClass("ActiveColor");
+    	$(this).addClass("ActiveColor");
+    	$("#coupon_code").html("GPSNEW40");
+        $("#off_percent").html("Get 40% off");
+        $("#old_price").html("5000");
+        $("#new_price").html("3000");
+		$("#notification,#parents,#tag,#contact,#win").css("opacity","0.2");
+		$("#lock,#lock1,#lock2,#lock3,#lock6").attr("src","https://www.gharpeshiksha.com/images/lock.png");
+		
+    });
+});  
+    $(".Gold").click(function(){
+        $("body").css("background","#e4a11b59")
+
+        $(".Bronze,.platinum,.platinumPlus").removeClass("ActiveColor");
+    	$(this).addClass("ActiveColor");
+
+    	$("#coupon_code").html("GPSNEW50");
+        $("#off_percent").html("Get 50% off");
+        $("#old_price").html("8000");
+        $("#new_price").html("4000");
+		$("#notification,#win").css("opacity","0.2");
+		$("#parents,#tag,#contact").css("opacity","1");
+		$("#lock").attr("src","https://www.gharpeshiksha.com/images/lock.png");
+		$("#lock1").attr("src","https://www.gharpeshiksha.com/images/parents1.jpg");
+		$("#lock2").attr("src","https://www.gharpeshiksha.com/images/suggestion1.png");
+		$("#lock3").attr("src","https://www.gharpeshiksha.com/images/client.png");
+		$("#lock6").attr("src","https://www.gharpeshiksha.com/images/lock.png");
+		
+xx
+
+    })
+    
+ $(document).ready(function(){
+    $(".platinum").click(function(){
+
+        $("body").css("background","#80808057")
+
+    	$(".Bronze,.Gold,.platinumPlus").removeClass("ActiveColor");
+    	$(this).addClass("ActiveColor");
+    	$("#coupon_code").html("GPSNEW50");
+        $("#off_percent").html("Get 50% off");
+        $("#old_price").html("10000");
+        $("#new_price").html("5000");
+		 $("#notification,#parents,#tag,#contact").css("opacity","1");
+		 $("#win").css("opacity","0.2");
+			 $("#lock").attr("src","https://www.gharpeshiksha.com/images/notification1.png");
+		$("#lock1").attr("src","https://www.gharpeshiksha.com/images/parents1.jpg");
+		$("#lock2").attr("src","https://www.gharpeshiksha.com/images/suggestion1.png");
+		$("#lock3").attr("src","https://www.gharpeshiksha.com/images/client.png");
+		 $("#lock6").attr("src","https://www.gharpeshiksha.com/images/lock.png");
+		
+		
+    })
+});  
+    
+     
+ $(document).ready(function(){
+	    $(".platinumPlus").click(function(){
+            $("body").css("background"," #DFF0D8")
+
+			 $("#notification,#parents,#tag,#contact,#win").css("opacity","1");
+			 $("#lock").attr("src","https://www.gharpeshiksha.com/images/notification1.png");
+			 $("#lock6").attr("src","https://www.gharpeshiksha.com/images/win.png");
+
+			$("#lock1").attr("src","https://www.gharpeshiksha.com/images/parents1.jpg");
+			$("#lock2").attr("src","https://www.gharpeshiksha.com/images/suggestion1.png");
+			$("#lock3").attr("src","https://www.gharpeshiksha.com/images/client.png");
+            $(this).addClass("ActiveColor");
+            $(".Bronze,.Gold,.platinum").removeClass("ActiveColor");
+
+			
+			
+	    });
+	}); 
+ 
+      
+    $(document).ready(function(){
+        $(".leads").html("200 Students Leads")
+	    $(".Diamond").click(function(){
+            $("body").css("background","#a52a2a47")
+
+            $(".Silver,.Diamondplus,.SuperDiamondplus").removeClass("ActiveColor");
+
+            $(this).addClass("ActiveColor")
+            $(".leads").html("500 Students Leads")
+	        
+			
+			
+			
+	    });
+	}); 
+    $(document).ready(function(){
+       
+
+	    $(".Silver").click(function(){
+            $("body").css("background"," #DFF0D8")
+
+            $(".Diamond,.Diamondplus,.SuperDiamondplus").removeClass("ActiveColor");
+            $(this).addClass("ActiveColor")
+            $(".leads").html("200 Students Leads")
+
+			
+			
+			
+	    });
+	}); 
+    $(document).ready(function(){
+        
+
+	    $(".Diamondplus").click(function(){
+            $("body").css("background","#80808057")
+
+            $(this).addClass("ActiveColor")
+            $(".Diamond,.Silver,.SuperDiamondplus").removeClass("ActiveColor");
+            $(".leads").html("1000 Students Leads")
+
+			
+			
+			
+	    });
+	}); 
+    $(document).ready(function(){
+	    $(".SuperDiamondplus").click(function(){
+            $("body").css("background","#e4a11b59")
+
+            $(".Diamond,.Silver,.Diamondplus").removeClass("ActiveColor");
+            $(this).addClass("ActiveColor")
+            $(".leads").html("2000 Students Leads")
+
+			
+			
+			
+	    });
+	}); 
+    
+</script>
+</body>
+</html>
